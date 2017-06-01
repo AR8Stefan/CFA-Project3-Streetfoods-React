@@ -10,6 +10,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "react-app-env": "^1.2.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {

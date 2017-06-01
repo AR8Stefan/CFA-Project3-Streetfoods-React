@@ -26,7 +26,7 @@ class App extends Component {
         <NavComponent />
         <div className='MainMap'>
           <GoogleMapReact
-          apiKey=APIKEY
+          apiKey= {process.env.REACT_APP_GOOGLE_API}
           defaultCenter={{lat: -33.8678500, lng: 151.2073200}}
           defaultZoom={13}
           >

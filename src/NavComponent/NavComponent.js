@@ -18,9 +18,10 @@ import './NavComponent.css';
         <nav>
           <div className="navWide">
             <div className="wideDiv">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="#">Home</a>
+              <a href="#">Order</a>
+              <a href="#">Menus</a>
+              <a href="#">Contact</a>
             </div>
           </div>
           <div className="navNarrow">
@@ -28,7 +29,7 @@ import './NavComponent.css';
               <div className="narrowLinks">
                 <a href="#" onClick={this.burgerToggle}>Home</a>
                 <a href="#" onClick={this.burgerToggle}>Order</a>
-                <a href="#" onClick={this.burgerToggle}>Menus</a>
+                <a href="../Menus/MainMenu.html" onClick={this.burgerToggle}>Menus</a>
                 <a href="#" onClick={this.burgerToggle}>Contact</a>
               </div>
           </div>
