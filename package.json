@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "google-map-react": "^0.24.0",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
