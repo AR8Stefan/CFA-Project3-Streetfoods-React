@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import NavComponent from './NavComponent/NavComponent.js'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link
+} from 'react-router-dom'
 import GoogleMapReact from 'google-map-react';
-// import Menu1 from './Menu1/Menu1.js';
-// import Menu2 from './Menu2/Menu2.js';
-// import Menu3 from './Menu3/Menu3.js';
-// import Menu4 from './Menu4/Menu4.js';
-// import Menu5 from './Menu5/Menu5.js';
+
 
 const AnyReactComponent = ({ text }) => (
   <div style={{
@@ -23,7 +24,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavComponent />
         <div className='MainMap'>
           <GoogleMapReact
           apiKey= {process.env.REACT_APP_GOOGLE_API}
