@@ -48,10 +48,10 @@ import Caribbean from '../Menus/the_caribbean.js'
 	          	</nav>
 
 	          	<div>
-	          		<App><MenuLists></MenuLists></App>
 	          		
 
 	          		<Switch>
+
 				        <Route exact path="/" component={Home}/>
 				        <Route path="/menus/mainmenu" component={MainMenu}/>
 				        <Route path="/order" component={Order}/>
@@ -64,18 +64,19 @@ import Caribbean from '../Menus/the_caribbean.js'
 				    </Switch>
 				
 				</div>
-
-
 		    </div>
-		</Router>
 
-		// burgerToggle() {
+
+		    
+		</Router>
+		// const burgerToggle() {
 		// 	let linksEl = document.querySelector('.narrowLinks');
 		// 	if (linksEl.style.display === 'block') {
 		// 	    linksEl.style.display = 'none';
 		// 	} else {
 		// 	    linksEl.style.display = 'block';
 		// 	}
+
 	);
 // }; //End class
 

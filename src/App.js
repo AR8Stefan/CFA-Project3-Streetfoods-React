@@ -44,15 +44,6 @@ class App extends Component {
          
           </GoogleMapReact>
 
-          <div>
-
-           
-
-            <Switch>
-                
-                </Switch>
-            </div>
-
         </div>
       </div>
     );
