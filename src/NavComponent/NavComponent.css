@@ -1,14 +1,17 @@
 nav {
-  background-color: #00F;
+  background-color: #575757;
   overflow: hidden;
   padding: 1em;
   border-bottom: 1px solid #000;
 }
 nav a {
   color: #FFF;
+  text-decoration: none;
+  list-style: none;
 }
 nav a:visited {
   color: #FFF;
+  text-decoration: none;
 }
 nav .navWide {
   display: none;
@@ -17,7 +20,7 @@ nav .navWide {
 nav .navWide .wideDiv {
   text-align: center;
 }
-nav .navWide .wideDiv a {
+nav .navWide .wideDiv li {
   text-decoration: none;
   display: inline-block;
   padding: 0 2em;
@@ -30,7 +33,7 @@ nav .navNarrow i {
 nav .navNarrow .narrowLinks {
   display: none;
 }
-nav .navNarrow .narrowLinks a {
+nav .navNarrow .narrowLinks li {
   text-decoration: none;
   display: block;
   float: left;
