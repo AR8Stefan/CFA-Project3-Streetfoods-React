@@ -1,4 +1,5 @@
 h1, h2, h3, h4 {
+	padding: 20px;
 	text-align: center;
 }
 
@@ -15,20 +16,61 @@ li {
 	align-content: center;
 }*/
 
+.LinkText {
+	padding: 20px;
+	margin: 10px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.Mediteranian {
+	background-color: #FF0694;
+	box-shadow: -5px 3px 1px #FF0694;
+}
+
+.sotb {
+	background-color: #FF741C;
+	box-shadow: -5px 3px 1px #FF741C;
+}
+
+.tuk {
+	background-color: #0A9FFF;
+	box-shadow: -5px 3px 1px #0A9FFF;
+}
+
+.tfe {
+	background-color: #0FD913;
+	box-shadow: -5px 3px 1px #0FD913;
+}
+
+.tcar {
+	background-color: #AC05B2;
+	box-shadow: -5px 3px 1px #AC05B2;
+}
+
 .MainMenuLists {
+	padding: 10px;
 	margin: 15px;
 	text-decoration: none;
+	border-style: none;
+	box-shadow: 10px;
 }
 
 .MainMenuLists li:hover {
 	text-decoration: none;
-	color: green
+	
 }
 
 .ListCols {
-	padding: 20px;
+	/*margin: 10px;
+	padding: 20px;*/
 }
 
 .MenuList {
 	color: #000;
+}
+
+.Marker .Linktext {
+	color: #000;
+	text-align: center;
 }

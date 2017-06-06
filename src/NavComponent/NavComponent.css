@@ -1,8 +1,17 @@
 nav {
-  background-color: #575757;
+  background-color: #3d3d3d;
   overflow: hidden;
   padding: 1em;
-  border-bottom: 1px solid #000;
+}
+
+.Navigation {
+
+}
+
+.fa-bars {
+  background-color: #3d3d3d;
+  border-style: none;
+  color: #fff;
 }
 nav a {
   color: #FFF;
@@ -48,4 +57,55 @@ nav .navNarrow .narrowLinks li {
   nav .navNarrow {
     display: none;
   }
+}
+
+.NavItems {
+  padding: 8px 0 5px 0;
+}
+
+.NavItems:first-child {
+  padding-top: 1em;
+}
+
+.Footer {
+  height: 10em;
+  background-color: #3d3d3d; 
+}
+
+.Footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Footer li {
+  padding: .5em;
+  display: inline-flex;
+}
+
+.Newsletter {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+.Newsletter p {
+  padding: 0;
+  margin: 0;
+  padding-top: 12px;
+}
+
+.NewsButton {
+  background-color: #636363;
+  color: #fff;
+  padding: 3px;
+  margin: 5px 5px 5px 0;
+  border-style: none;
+}
+
+.Footer-text {
+  margin-top: 10px;
+  padding: .35em;
+  color: #fff;
+  text-align: center;
 }

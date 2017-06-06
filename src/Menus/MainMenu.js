@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Route,
@@ -7,7 +6,10 @@ import {
   Link
 } from 'react-router-dom';
 import './Menus.css';
-import { Well, Grid, Col, Row, Button } from 'react-bootstrap';
+import { Grid,
+	Col,
+	Row,
+	Button } from 'react-bootstrap';
 import Mediteranian from './the_mediteranian.js'
 import SouthBorder from './south_of_the_border.js'
 import Uk from './the_uk.js'
@@ -18,34 +20,28 @@ import Caribbean from './the_caribbean.js'
 const MenuLists = () => {
 	return <Router>
 		<div>
-			<h1>Main Menu</h1>
-			<Grid xs={12}>
-				<Row center="xs">
+			<h1>Eat Local, Taste the World.123</h1>
+			<Grid>
+				<Row>
 					<div className="AppMenus">
-						<Col className="ListCols" xs={6} md={4}>
-							<Button className="MainMenuLists" onClick={this.burgerToggle}><Link to="/the_mediteranian">The Mediteranian</Link>
-							
+						<Col className="ListCols" xs={12} md={4}>
+							<Button className="MainMenuLists Mediteranian" onClick={this.burgerToggle}><Link className="LinkText" to="/the_mediteranian">The Mediteranian</Link>
 							</Button>
 						</Col>
 						<Col className="ListCols" xs={6} md={4}>
-
-							<Button>
-						    <li className="MainMenuLists" onClick={this.burgerToggle}><Link to="/south_of_the_border">South of the Border</Link></li>
+						    <Button className="MainMenuLists tuk" xs={6} onClick={this.burgerToggle}><Link className="LinkText" to="/the_uk">The UK</Link>
+						    </Button>
+						</Col>
+						<Col className="ListCols" xs={12} md={4}>
+							<Button className="MainMenuLists sotb" onClick={this.burgerToggle}><Link className="LinkText" to="/south_of_the_border">South of the Border</Link>
 						    </Button>
 						</Col>
 						<Col className="ListCols" xs={6} md={4}>
-						    <Button>
-						    <li className="MainMenuLists" onClick={this.burgerToggle}><Link to="/the_uk">The UK</Link></li>
+						    <Button className="MainMenuLists tfe" onClick={this.burgerToggle}><Link className="LinkText" to="/the_far_east">The Far East</Link>
 						    </Button>
 						</Col>
 						<Col className="ListCols" xs={6} md={4}>
-						    <Button>
-						    <li className="MainMenuLists" onClick={this.burgerToggle}><Link to="/the_far_east">The Far East</Link></li>
-						    </Button>
-						</Col>
-						<Col className="ListCols" xs={6} md={4}>
-						    <Button>
-						    <li className="MainMenuLists" onClick={this.burgerToggle}><Link to="/the_caribbean">The Caribbean</Link></li>
+						    <Button className="MainMenuLists tcar" onClick={this.burgerToggle}><Link className="LinkText" to="/the_caribbean">The Caribbean</Link>
 						    </Button>
 					    </Col>
 					</div>
