@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 //   Switch,
 //   Link
 // } from 'react-router-dom'
+// import {observer} from 'mobx-react'
 // import { Well, Grid, Col, Row } from 'react-bootstrap';
 // import Home from '../Home.js'
 
