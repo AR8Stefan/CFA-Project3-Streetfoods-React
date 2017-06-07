@@ -63,8 +63,6 @@ class App extends Component {
             text={'The Caribbean'}
           />
 
-
-
           </GoogleMapReact>
 
         </div>
