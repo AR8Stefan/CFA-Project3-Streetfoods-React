@@ -2,21 +2,16 @@ import React, { Component } from 'react';
 import './App.css';
 import { Button } from 'react-bootstrap'
 // import NavComponent from './NavComponent/NavComponent.js'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import GoogleMapReact from 'google-map-react';
 import GoogleMapMarkers from 'google-map-react';
 
-import MenuLists from './Menus/MainMenu.js'
-import Mediteranian from './Menus/the_mediteranian.js'
-import SouthBorder from './Menus/south_of_the_border.js'
-import Uk from './Menus/the_uk.js'
-import FarEast from './Menus/the_far_east.js'
-import Caribbean from './Menus/the_caribbean.js'
+// import MenuLists from './Menus/MainMenu.js'
+// import Mediteranian from './Menus/the_mediteranian.js'
+// import SouthBorder from './Menus/south_of_the_border.js'
+// import Uk from './Menus/the_uk.js'
+// import FarEast from './Menus/the_far_east.js'
+// import Caribbean from './Menus/the_caribbean.js'
 
 
 const AnyReactComponent = ({text}) => (
@@ -67,8 +62,6 @@ class App extends Component {
             lng={-118.202141}
             text={'The Caribbean'}
           />
-
-
 
           </GoogleMapReact>
 

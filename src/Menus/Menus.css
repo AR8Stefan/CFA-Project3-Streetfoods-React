@@ -48,6 +48,11 @@ li {
 	box-shadow: -5px 3px 1px #AC05B2;
 }
 
+.MenuButton {
+	height: 60px;
+	width: 80vw;
+}
+
 .MainMenuLists {
 	padding: 10px;
 	margin: 15px;

@@ -12,13 +12,13 @@ import {
 	NavItem,
 	NavDropdown,
 	MenuItem,
-	Grid,
-	Row,
+	// Grid,
+	// Row,
 	Col,
 	Form,
 	FormGroup,
 	ControlLabel,
-	Checkbox,
+	// Checkbox,
 	Button,
 	FormControl
 } from 'react-bootstrap'
