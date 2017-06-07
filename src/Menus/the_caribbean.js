@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
+import Counter from './counter.js'
+import appState from './counter.js'
 // import {
 //   BrowserRouter as Router,
 //   Route,

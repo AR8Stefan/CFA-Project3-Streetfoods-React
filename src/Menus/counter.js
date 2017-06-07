@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import {observable} from "mobx";
 import {observer} from "mobx-react";
+import {observable} from "mobx";
+
 
 // import {
 // 	Navbar,
@@ -9,13 +10,13 @@ import {observer} from "mobx-react";
 // 	NavItem,
 // 	NavDropdown,
 // 	MenuItem,
-// 	// Grid,
-// 	// Row,
+// 	Grid,
+//  Row,
 // 	Col,
 // 	Form,
 // 	FormGroup,
 // 	ControlLabel,
-// 	// Checkbox,
+// 	Checkbox,
 // 	Button,
 // 	FormControl
 // } from 'react-bootstrap'
@@ -33,26 +34,28 @@ appState.decrement = function () {
 }
 
 
+
+
 @observer
 class Counter extends React.Component {
 
+	handleInc = () => {
+		appState.increment()
+	};
+
+	handleDec = () => {
+		appState.decrement()
+	};
 
 	render() {
 		return (
 			<div>
-				Counter: {this.props.store.count} <br/>
+				Counter: {appState.count} <br/>
 				<button onClick={this.handleInc}> + </button>
 				<button onClick={this.handleDec}> - </button>
 			</div>
 		)
-	}
 
-	handleInc = () {
-		this.props.store.increment()
-	}
-
-	handleDec = () {
-		this.props.store.decrement()
 	}
 };
 
