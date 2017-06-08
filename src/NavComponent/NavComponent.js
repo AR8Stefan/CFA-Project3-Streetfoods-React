@@ -39,7 +39,7 @@ import Caribbean from '../Menus/the_caribbean.js'
 	const NavComponent  = () => (
 <Router>
 	<div>
-	  	<Navbar className="Navigation">
+	  	<Navbar className="Navigation" img="../assets/images/logo.svg">
   		   	<Nav className="navWide">
     			<div className="wideDiv">
 		        	<NavItem onClick={this.burgerToggle}><Link to="/">Home</Link></NavItem>
@@ -105,7 +105,6 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 				    </FormGroup>
 				</Form>
-			
 				
 			</div>
 		</div>
