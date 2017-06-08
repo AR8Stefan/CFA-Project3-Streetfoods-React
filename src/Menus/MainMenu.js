@@ -28,8 +28,6 @@ const MenuLists = () => {
 				<Row>
 					<div className="AppMenus">
 
-					<Well bsSize="large">
-
 						<Col className="ListCols" xs={6} md={4}>
 							<div>
 
@@ -97,8 +95,6 @@ const MenuLists = () => {
 						    	
 						    </div>
 					    </Col>
-
-					    </Well>
 
 					</div>
 				</Row>

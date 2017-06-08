@@ -31,13 +31,12 @@ li {
 	
 }
 
-.AppMenus {
+/*.AppMenus {
 	text-align: center;
-}
+}*/
 
 .AppMenus p {
 	font-family: Open Sans;
-	width: 40vw;
 	text-align: center;
 }
 
@@ -83,8 +82,13 @@ li {
 }
 
 .ListCols {
+	text-align: center;
 	/*margin: 10px;
 	padding: 20px;*/
+}
+
+.ListCols p {
+	text-align: center;
 }
 
 .MenuList {
