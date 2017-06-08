@@ -1,5 +1,5 @@
 nav {
-  background-color: #3d3d3d;
+  background-color: #404041;
   overflow: hidden;
   padding: 1em;
 }
@@ -9,17 +9,17 @@ nav {
 }
 
 .fa-bars {
-  background-color: #3d3d3d;
+  background-color: #404041;
   border-style: none;
-  color: #fff;
+  color: #d3d4d6;
 }
 nav a {
-  color: #FFF;
+  color: #d3d4d6;
   text-decoration: none;
   list-style: none;
 }
 nav a:visited {
-  color: #FFF;
+  color: #d3d4d6;
   text-decoration: none;
 }
 nav .navWide {
@@ -37,7 +37,7 @@ nav .navWide .wideDiv li {
 nav .navNarrow i {
   float: left;
   cursor: pointer;
-  color: #FFF;
+  color: #d3d4d6;
 }
 nav .navNarrow .narrowLinks {
   display: none;
@@ -69,11 +69,11 @@ nav .navNarrow .narrowLinks li {
 
 .Footer {
   height: 10em;
-  background-color: #3d3d3d; 
+  background-color: #404041; 
 }
 
 .Footer a {
-  color: #fff;
+  color: #d3d4d6;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ nav .navNarrow .narrowLinks li {
 }
 
 .Newsletter {
-  color: #fff;
+  color: #d3d4d6;
   text-align: center;
   padding: 10px;
   display: block;
@@ -96,8 +96,8 @@ nav .navNarrow .narrowLinks li {
 }
 
 .NewsButton {
-  background-color: #636363;
-  color: #fff;
+  background-color: #4c4c4e;
+  color: #d3d4d6;
   padding: 3px;
   margin: 5px 5px 5px 0;
   border-style: none;
@@ -106,6 +106,6 @@ nav .navNarrow .narrowLinks li {
 .Footer-text {
   margin-top: 10px;
   padding: .35em;
-  color: #fff;
+  color: #d3d4d6;
   text-align: center;
 }

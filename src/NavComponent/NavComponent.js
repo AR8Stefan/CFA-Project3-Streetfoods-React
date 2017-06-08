@@ -43,6 +43,7 @@ import Caribbean from '../Menus/the_caribbean.js'
 	<div>
 
 	  	<Navbar className="Navigation">
+
   		   	<Nav className="navWide">
     			<div className="wideDiv">
 		        	<NavItem onClick={this.burgerToggle}><Link to="/">Home</Link></NavItem>
@@ -109,7 +110,6 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 				    </FormGroup>
 				</Form>
-			
 				
 			</div>
 		</div>
