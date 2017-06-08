@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import GoogleMapReact from 'google-map-react';
 import GoogleMapMarkers from 'google-map-react';
 
-// import MenuLists from './Menus/MainMenu.js'
+import MenuLists from './Menus/MainMenu.js'
 // import Mediteranian from './Menus/the_mediteranian.js'
 // import SouthBorder from './Menus/south_of_the_border.js'
 // import Uk from './Menus/the_uk.js'
@@ -65,7 +65,9 @@ class App extends Component {
 
           </GoogleMapReact>
 
+
         </div>
+        <MenuLists />
       </div>
     );
   }

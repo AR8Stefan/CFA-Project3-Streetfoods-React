@@ -16,7 +16,6 @@ import Uk from './the_uk.js'
 import FarEast from './the_far_east.js'
 import Caribbean from './the_caribbean.js'
 
-
 const MenuLists = () => {
 	return <Router>
 		<div>
