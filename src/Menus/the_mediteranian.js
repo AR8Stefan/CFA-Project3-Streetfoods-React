@@ -1,13 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import ReactDOM from 'react-dom';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link
-} from 'react-router-dom'
-import {observer} from "mobx-react";
-import {observable} from "mobx";
 import Counter from './counter.js'
 import appState from './counter.js'
 // import { Well, Grid, Col, Row } from 'react-bootstrap';

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -10,12 +10,12 @@ import { Grid,
 	Col,
 	Row,
 	Button } from 'react-bootstrap';
+
 import Mediteranian from './the_mediteranian.js'
 import SouthBorder from './south_of_the_border.js'
 import Uk from './the_uk.js'
 import FarEast from './the_far_east.js'
 import Caribbean from './the_caribbean.js'
-
 
 const MenuLists = () => {
 	return <Router>
@@ -25,8 +25,10 @@ const MenuLists = () => {
 				<Row>
 					<div className="AppMenus">
 						<Col className="ListCols" xs={6} md={4}>
+							<div><img src="/assets/images/truck.svg" alt=""></img>
 							<Button className="MainMenuLists Mediteranian MenuButton" onClick={this.burgerToggle}><Link className="LinkText" to="/the_mediteranian">The Mediteranian</Link>
 							</Button>
+							</div>
 						</Col>
 						<Col className="ListCols" xs={6} md={4}>
 						    <Button className="MainMenuLists tuk MenuButton" onClick={this.burgerToggle}><Link className="LinkText" to="/the_uk">The UK</Link>

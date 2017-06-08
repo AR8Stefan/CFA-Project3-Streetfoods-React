@@ -1,7 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Counter from './counter.js'
-import appState from './counter.js'
+import React from 'react';
 // import {
 //   BrowserRouter as Router,
 //   Route,
