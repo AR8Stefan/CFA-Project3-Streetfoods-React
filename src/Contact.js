@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
 	// Navbar,
 	// Nav,
@@ -19,22 +19,22 @@ import {
 
 const Contact = () => {
 	return <div>
-		<h1>Contact text</h1>
+		<h1>Contact Us.</h1>
 
 		<Form horizontal>
 		    <FormGroup controlId="formHorizontalEmail">
-		      	<Col componentClass={ControlLabel} sm={2}>Email
+		      	<Col componentClass={ControlLabel} sm={2}><p>Email</p>
 		      	</Col>
 		      	<Col sm={10}>
-		        	<FormControl type="email" placeholder="Email" />
+		        	<FormControl className="inputField" type="email" placeholder="Email" />
 		      	</Col>
 		    	</FormGroup>
 
 		    	<FormGroup controlId="formHorizontalQuery">
-		      	<Col componentClass={ControlLabel} sm={2}>Submit Your Query
+		      	<Col componentClass={ControlLabel} sm={2}><p>Submit Your Query</p>
 		      	</Col>
 		      	<Col sm={10}>
-		        <FormControl type="text" placeholder="Submit Your Query" />
+		        <FormControl className="inputField" type="text" placeholder="Submit Your Query" />
 		      	</Col>
 		    	</FormGroup>
 

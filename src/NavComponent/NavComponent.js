@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './NavComponent.css';
 import {
   BrowserRouter as Router,
@@ -36,10 +36,14 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 // class NavComponent extends Component {
 
+//	<img className="MainLogo" src="http://res.cloudinary.com/stefank9/image/upload/v1496907626/logo_k0klyh.svg" alt="" />
+
 	const NavComponent  = () => (
 <Router>
 	<div>
-	  	<Navbar className="Navigation" img="../assets/images/logo.svg">
+
+	  	<Navbar className="Navigation">
+
   		   	<Nav className="navWide">
     			<div className="wideDiv">
 		        	<NavItem onClick={this.burgerToggle}><Link to="/">Home</Link></NavItem>
@@ -51,6 +55,7 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 	    	<Navbar.Header>
 	      		<Navbar.Brand>
+
 	      		</Navbar.Brand>
 	      		<Navbar.Toggle className="fa fa-bars fa-2x" onClick={this.burgerToggle} />
 	    	</Navbar.Header>
