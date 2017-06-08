@@ -1,6 +1,25 @@
-h1, h2, h3, h4 {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'TrashHand';
+    src: url('TrashHand-webfont.woff') format('woff'),
+    	url('TrashHand-webfont.eot') format('embedded-opentype'),	
+    	url('TrashHand-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3 {
 	padding: 20px;
+	color: #000;
 	text-align: center;
+	font-family: TrashHand;
+}
+
+p {
+	text-align: center;
+	font-family: OpenSans;
 }
 
 li {
@@ -8,13 +27,19 @@ li {
 	list-style-type: none;
 }
 
+.MainLogo {
+	
+}
+
 .AppMenus {
 	text-align: center;
 }
 
-/*.ListCols {
-	align-content: center;
-}*/
+.AppMenus p {
+	font-family: Open Sans;
+	width: 40vw;
+	text-align: center;
+}
 
 .LinkText {
 	padding: 20px;
@@ -24,33 +49,25 @@ li {
 }
 
 .Mediteranian {
-	background-color: #FF0694;
-	box-shadow: -5px 3px 1px #FF0694;
+	color: #FF0694;
 }
 
 .sotb {
-	background-color: #FF741C;
-	box-shadow: -5px 3px 1px #FF741C;
+	color: #FF741C;
 }
 
 .tuk {
-	background-color: #0A9FFF;
-	box-shadow: -5px 3px 1px #0A9FFF;
-}
-
-.tfe {
-	background-color: #0FD913;
-	box-shadow: -5px 3px 1px #0FD913;
+	color: #0A9FFF;
 }
 
 .tcar {
-	background-color: #AC05B2;
-	box-shadow: -5px 3px 1px #AC05B2;
+	color: #AC05B2;
+	margin-bottom: 20px;
 }
 
-.MenuButton {
+.MenuButton img {
 	height: 60px;
-	width: 80vw;
+	width: 30vw;
 }
 
 .MainMenuLists {
@@ -63,7 +80,6 @@ li {
 
 .MainMenuLists li:hover {
 	text-decoration: none;
-	
 }
 
 .ListCols {

@@ -36,9 +36,12 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 // class NavComponent extends Component {
 
+//	<img className="MainLogo" src="http://res.cloudinary.com/stefank9/image/upload/v1496907626/logo_k0klyh.svg" alt="" />
+
 	const NavComponent  = () => (
 <Router>
 	<div>
+
 	  	<Navbar className="Navigation">
   		   	<Nav className="navWide">
     			<div className="wideDiv">
@@ -51,6 +54,7 @@ import Caribbean from '../Menus/the_caribbean.js'
 
 	    	<Navbar.Header>
 	      		<Navbar.Brand>
+
 	      		</Navbar.Brand>
 	      		<Navbar.Toggle className="fa fa-bars fa-2x" onClick={this.burgerToggle} />
 	    	</Navbar.Header>
