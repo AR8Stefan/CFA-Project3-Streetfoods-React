@@ -1,7 +1,10 @@
 # CFA - Project3 - StreetFoods
 
+***Warning!***
+* This project has been ejected.
+
 ### A little about the project -
-- This project was for us to speak to a client (preferably someone we don't know, unless we asked for permisson first). My client was my fiancee. I actually asked her if  I could build one of the projects she had designed and created herself. I thought it would be a great opportunity to challenge myself.
+This project was for us to speak to a client (preferably someone we don't know, unless we asked for permisson first). My client was my fiancee. I actually asked her if  I could build one of the projects she had designed and created herself. I thought it would be a great opportunity to challenge myself.
 
 ### Planning
 
@@ -18,5 +21,27 @@ After I got the okay to do this project I let my finacee know it could be built.
 | June 2nd | Spoke about Colours/Logos for site. |
 | June 5th | Spoke about not finishing in time and completing what I can during the 2 week project period. - Home pages, Routes, Colours, some functionality. |
 | June 8th | Progress & When to sign off project. |
+
+### Getting Started.
+
+```sh
+git clone https://github.com/AR8Stefan/CFA-Project3-Streetfoods-React.git
+cd CFA-Project3-Streetfoods-React
+```
+
+##### Yarn or npm install:
+
+```sh
+yarn install
+    or
+npm install
+```
+### Running StreetFoods.
+
+```sh
+yarn start
+    or
+npm start
+```
 
 
