@@ -22,7 +22,11 @@ After I got the okay to do this project I let my finacee know it could be built.
 | June 5th | Spoke about not finishing in time and completing what I can during the 2 week project period. - Home pages, Routes, Colours, some functionality. |
 | June 8th | Progress & When to sign off project. |
 
-### Getting Started.
+#### Client Feedback.
+
+https://docs.google.com/forms/d/1l1RIOk3rFEmVtxSY2CGKPQrBC-2ht2p94JJyJmLlCEI/edit#response=ACYDBNjmBZHfZUYRs1FkX4_PIdBZEMKc1PmWYwBPo5aWoddqy5cMVCXtpQ3Ktw
+
+#### Getting Started.
 
 ```sh
 git clone https://github.com/AR8Stefan/CFA-Project3-Streetfoods-React.git
@@ -36,7 +40,7 @@ yarn install
     or
 npm install
 ```
-### Running StreetFoods.
+##### Running StreetFoods.
 
 ```sh
 yarn start
@@ -44,4 +48,16 @@ yarn start
 npm start
 ```
 
+### Personal Challenges, Enjoyment and Reflection.
 
+- Implementing Google Maps API and making Maps render on the page.
+- MobX was slightly difficult to implement, this was fun to learn about though as we didn't do this in class. Ejecting, I learned was a bad thing (in this case) to do.
+- Navigation and React Routes was something esle I struggled to understand at first.
+- @font-face I really struggled to understand due to docs/videos assuming knowledge.
+
+###### Improvments I could make: (project and myself)
+- Prioritise features. Work on one thing, make it look good before moving to the next thing.
+- Seek assistance instead of struggling for too long. 
+- Page route for menu list to menu items. Need to render the Menu Items where the Menu List is, instead of underneath.
+- Page layout, Truck images and Text need to be side-by-side.
+- Main logo needs to display over navbar and map.
