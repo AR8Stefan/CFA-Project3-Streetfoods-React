@@ -26,6 +26,9 @@ After I got the okay to do this project I let my finacee know it could be built.
 
 https://docs.google.com/forms/d/1l1RIOk3rFEmVtxSY2CGKPQrBC-2ht2p94JJyJmLlCEI/edit#response=ACYDBNjmBZHfZUYRs1FkX4_PIdBZEMKc1PmWYwBPo5aWoddqy5cMVCXtpQ3Ktw
 
+##### Client sign-off
+![](http://res.cloudinary.com/stefank9/image/upload/v1497592690/Screen_Shot_2017-06-16_at_3.57.05_pm_hdptb9.png)
+
 #### Getting Started.
 
 ```sh
