@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-
+/Users/stefanpiatkov/Desktop/google-map-test/.gitignore
 # testing
 /coverage
 
