@@ -8,8 +8,7 @@ import {
 import './Menus.css';
 import { Grid,
 	Col,
-	Row,
-	Well
+	Row
 	} from 'react-bootstrap';
 
 import Mediteranian from './the_mediteranian.js'

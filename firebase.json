@@ -1,11 +1,14 @@
 {
   "hosting": {
-    "public": "yes",
+    "public": "public",
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
     ]
+  },
+  "database": {
+    "rules": "database.firebase"
   }
 }
