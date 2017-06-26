@@ -12,6 +12,12 @@ The idea behind the StreetFoods Project is about food trucks that are tracked ar
 
 After I got the okay to do this project I let my finacee know it could be built. She also warned me I might not be able to finish it in time and just do what I can. We had a few discussions about this before I started building StreetFoods.
 
+I used trello to pick out the features that were necessary for the core functionality of the project.
+- Map
+- Markers
+- React Routes
+- Email System to order food
+
 #### Client Interactions
 
 | Dates | Talked About |
@@ -56,7 +62,8 @@ npm start
 ### Personal Challenges, Enjoyment and Reflection.
 
 - Implementing Google Maps API and making Maps render on the page.
-- MobX was slightly difficult to implement, this was fun to learn about though as we didn't do this in class. Ejecting, I learned was a bad thing (in this case) to do.
+- MobX was slightly difficult to implement, this was fun to learn about though as we didn't do this in class.
+- Ejecting a project, I learned was a bad thing (in this case) to do.
 - Navigation and React Routes was something esle I struggled to understand at first.
 - @font-face I really struggled to understand due to docs/videos assuming knowledge.
 
