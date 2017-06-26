@@ -4,7 +4,9 @@
 * This project has been ejected.
 
 ### A little about the project -
-This project was for us to speak to a client (preferably someone we don't know, unless we asked for permisson first). My client was my fiancee. I actually asked her if  I could build one of the projects she had designed and created herself. I thought it would be a great opportunity to challenge myself.
+This project was for us to speak to a client (preferably someone we don't know, unless we asked for permisson first) And make something for that client. My client was my fiancee. I actually asked her if  I could build one of the projects she had designed and created herself. I thought it would be a great opportunity to challenge myself.
+
+The idea behind the StreetFoods Project is about food trucks that are tracked around Los Angeles. You open the web app on your phone or desktop and you can see where the trucks are located, you can then pick a truck and order your food and then go to the truck to pay and pick up your food without waiting in line.
 
 ### Planning
 
